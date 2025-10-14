@@ -11,6 +11,7 @@ body {
     color: white;
     background-color: #1F2937;
     padding: 0px 180px 180px 180px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -76,4 +77,26 @@ button {
     color: white;
     background-color: #3882F6;
     margin-top: 10px;
+}
+
+.middle-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info-image {
+    display: flex;
+}
+
+.info-image img {
+    width: 200px;
+    height: 200px;
 }
