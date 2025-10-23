@@ -10,7 +10,7 @@ body {
 .top {
     color: white;
     background-color: #1F2937;
-    padding: 0px 180px 180px 180px;
+    padding: 0px 180px 130px 180px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
@@ -105,5 +105,30 @@ button {
 
 .subtext {
     text-align: center;
-    filter: contrast(70%);
+    filter: contrast(50%);
+}
+
+.middle-2 {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    align-self: center;
+    filter: contrast(65%);
+}
+
+.author {
+    font-size: 22px;
+    align-self: flex-end;
 }
