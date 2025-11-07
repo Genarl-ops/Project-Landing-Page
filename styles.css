@@ -70,7 +70,6 @@ img {
 button {
     width: 120px;
     height: 40px;
-    border: 10px;
     border-radius: 8px;
     font-family: "Roboto", "Times New Roman", sans-serif;
     font-size: 16px;
@@ -125,10 +124,37 @@ button {
     color: #1F2937;
     font-weight: 300;
     align-self: center;
-    filter: contrast(65%);
+    filter: contrast(45%);
 }
 
 .author {
     font-size: 22px;
     align-self: flex-end;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-box {
+    width: 800px;
+    height: auto;
+    padding: 20px 80px 20px 80px;
+    margin: 18px 12px;
+    border: 10px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom .left-section {
+    color: white;
+    font-size: 18px;
+}
+
+.bottom button {
+    border: 2px solid white;
 }
